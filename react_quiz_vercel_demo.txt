@@ -1,0 +1,43 @@
+// مجلد المشروع: digital-quiz-demo
+// 1️⃣ إنشاء مشروع React جديد
+// npx create-react-app .
+
+// 2️⃣ استبدال src/App.js بالكود الكامل الذي أرسلته سابقاً
+
+// 3️⃣ تثبيت Tailwind CSS (اختياري لكن يُحسن العرض)
+// npm install -D tailwindcss postcss autoprefixer
+// npx tailwindcss init -p
+
+// tailwind.config.js
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: { extend: {} },
+  plugins: [],
+};
+
+// src/index.css
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+// 4️⃣ اختبار محلي
+// npm start
+
+// 5️⃣ رفع المشروع على GitHub
+// git init
+// git add .
+// git commit -m "Initial commit - quiz demo"
+// git branch -M main
+// git remote add origin <YOUR_GITHUB_REPO_URL>
+// git push -u origin main
+
+// 6️⃣ نشر على Vercel
+// - سجل دخولك إلى https://vercel.com/
+// - New Project -> اختر المستودع
+// - Build Command: npm run build
+// - Output Directory: build
+// - Deploy
+
+// 7️⃣ بعد النشر، سيظهر رابط مباشر يعمل فوراً مع نسخة Demo للكويز
